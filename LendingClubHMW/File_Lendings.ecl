@@ -9,7 +9,7 @@
 		UNSIGNED1 mort_acc;       // numero de hipotecas
 		UNSIGNED1 tax_liens;      // numero de propriedades penhoradas para pagamento de impostos
 		UNSIGNED1 loan_status;
-  END;
+    END;
 	
 	EXPORT Dataset_Lendings := PROJECT($.File_Binomial.Dataset_Binomial,Layout_Lendings);
 
